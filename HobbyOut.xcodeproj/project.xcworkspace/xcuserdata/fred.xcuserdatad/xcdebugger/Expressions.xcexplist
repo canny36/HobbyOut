@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MeetingDetailsViewController viewDidLoad]:MeetingDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+            <PersistentString
+               value = "self.meeting.typeLieu">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MeetingDetailsViewController initWithMeeting:]:MeetingDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.popUpController ">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ParticipantPopUpViewController collectionView:didSelectItemAtIndexPath:]:ParticipantPopUpViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Meeting header]:Meeting.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.avatar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchViewController tableView:cellForRowAtIndexPath:]:SearchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[_meetingByCategory objectForKey:key] count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
