@@ -42,6 +42,32 @@
 		AC395BD11910249900882DBF /* testimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC395BD01910249900882DBF /* testimage.jpeg */; };
 		AC4C6FE1191100C00063BDF2 /* AddFriendService.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4C6FE0191100C00063BDF2 /* AddFriendService.m */; };
 		AC4C6FE4191164FE0063BDF2 /* PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4C6FE3191164FE0063BDF2 /* PushService.m */; };
+		AC53EED619275EFF009F2419 /* menu-bt-options-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EED419275EFF009F2419 /* menu-bt-options-off@2x.png */; };
+		AC53EED719275EFF009F2419 /* menu-bt-options-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EED519275EFF009F2419 /* menu-bt-options-on@2x.png */; };
+		AC53EEDB19275FD8009F2419 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53EED919275FD8009F2419 /* OptionsViewController.m */; };
+		AC53EEDC19275FD8009F2419 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEDA19275FD8009F2419 /* OptionsViewController.xib */; };
+		AC53EEE6192762F0009F2419 /* options-deco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEDE192762F0009F2419 /* options-deco@2x.png */; };
+		AC53EEE7192762F0009F2419 /* options-envoi-feedback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEDF192762F0009F2419 /* options-envoi-feedback@2x.png */; };
+		AC53EEE8192762F0009F2419 /* options-fond-deco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEE0192762F0009F2419 /* options-fond-deco@2x.png */; };
+		AC53EEE9192762F0009F2419 /* options-fond-rubrique@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEE1192762F0009F2419 /* options-fond-rubrique@2x.png */; };
+		AC53EEEA192762F0009F2419 /* options-invite-amis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEE2192762F0009F2419 /* options-invite-amis@2x.png */; };
+		AC53EEEB192762F0009F2419 /* options-note-app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEE3192762F0009F2419 /* options-note-app@2x.png */; };
+		AC53EEEC192762F0009F2419 /* options-publi-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEE4192762F0009F2419 /* options-publi-facebook@2x.png */; };
+		AC53EEED192762F0009F2419 /* options-suis-nous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEE5192762F0009F2419 /* options-suis-nous@2x.png */; };
+		AC53EEF2192780FE009F2419 /* InviteYourFiendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53EEF0192780FE009F2419 /* InviteYourFiendViewController.m */; };
+		AC53EEF3192780FE009F2419 /* InviteYourFiendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEF1192780FE009F2419 /* InviteYourFiendViewController.xib */; };
+		AC53EEF6192781E0009F2419 /* carnetadresse-filtre-off-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEF5192781E0009F2419 /* carnetadresse-filtre-off-on@2x.png */; };
+		AC53EEF8192781E8009F2419 /* carnetadresse-filtre-on-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEF7192781E8009F2419 /* carnetadresse-filtre-on-off@2x.png */; };
+		AC53EEFB192784DE009F2419 /* bt-fb-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEF9192784DE009F2419 /* bt-fb-off@2x.png */; };
+		AC53EEFC192784DE009F2419 /* bt-fb-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEFA192784DE009F2419 /* bt-fb-on@2x.png */; };
+		AC53EEFE19278F34009F2419 /* bt-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEFD19278F34009F2419 /* bt-back@2x.png */; };
+		AC53EF0119279119009F2419 /* menu-bt-communaute-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EEFF19279119009F2419 /* menu-bt-communaute-on@2x.png */; };
+		AC53EF0219279119009F2419 /* menu-bt-evenement-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EF0019279119009F2419 /* menu-bt-evenement-off@2x.png */; };
+		AC53EF041927918C009F2419 /* menu-bt-communaute-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53EF031927918C009F2419 /* menu-bt-communaute-off@2x.png */; };
+		AC53EF0919279294009F2419 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53EF0719279294009F2419 /* AboutMeViewController.m */; };
+		AC53EF0A19279294009F2419 /* AboutMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC53EF0819279294009F2419 /* AboutMeViewController.xib */; };
+		AC53EF0D19279743009F2419 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC53EF0B19279743009F2419 /* AddressBook.framework */; };
+		AC53EF0E19279743009F2419 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC53EF0C19279743009F2419 /* AddressBookUI.framework */; };
 		AC7B8A2C190B864900D83F89 /* InviteFriendService.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7B8A2B190B864900D83F89 /* InviteFriendService.m */; };
 		ACAFFAC919129E6F00F27328 /* ValidateService.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAFFAC819129E6F00F27328 /* ValidateService.m */; };
 		ACBCA0151903A57A0070010E /* icon-femme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACBCA0131903A57A0070010E /* icon-femme@2x.png */; };
@@ -687,6 +713,35 @@
 		AC4C6FE0191100C00063BDF2 /* AddFriendService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendService.m; sourceTree = "<group>"; };
 		AC4C6FE2191164FE0063BDF2 /* PushService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushService.h; sourceTree = "<group>"; };
 		AC4C6FE3191164FE0063BDF2 /* PushService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushService.m; sourceTree = "<group>"; };
+		AC53EED419275EFF009F2419 /* menu-bt-options-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-bt-options-off@2x.png"; sourceTree = "<group>"; };
+		AC53EED519275EFF009F2419 /* menu-bt-options-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-bt-options-on@2x.png"; sourceTree = "<group>"; };
+		AC53EED819275FD8009F2419 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		AC53EED919275FD8009F2419 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		AC53EEDA19275FD8009F2419 /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
+		AC53EEDE192762F0009F2419 /* options-deco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-deco@2x.png"; sourceTree = "<group>"; };
+		AC53EEDF192762F0009F2419 /* options-envoi-feedback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-envoi-feedback@2x.png"; sourceTree = "<group>"; };
+		AC53EEE0192762F0009F2419 /* options-fond-deco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-fond-deco@2x.png"; sourceTree = "<group>"; };
+		AC53EEE1192762F0009F2419 /* options-fond-rubrique@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-fond-rubrique@2x.png"; sourceTree = "<group>"; };
+		AC53EEE2192762F0009F2419 /* options-invite-amis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-invite-amis@2x.png"; sourceTree = "<group>"; };
+		AC53EEE3192762F0009F2419 /* options-note-app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-note-app@2x.png"; sourceTree = "<group>"; };
+		AC53EEE4192762F0009F2419 /* options-publi-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-publi-facebook@2x.png"; sourceTree = "<group>"; };
+		AC53EEE5192762F0009F2419 /* options-suis-nous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-suis-nous@2x.png"; sourceTree = "<group>"; };
+		AC53EEEF192780FE009F2419 /* InviteYourFiendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteYourFiendViewController.h; sourceTree = "<group>"; };
+		AC53EEF0192780FE009F2419 /* InviteYourFiendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteYourFiendViewController.m; sourceTree = "<group>"; };
+		AC53EEF1192780FE009F2419 /* InviteYourFiendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteYourFiendViewController.xib; sourceTree = "<group>"; };
+		AC53EEF5192781E0009F2419 /* carnetadresse-filtre-off-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carnetadresse-filtre-off-on@2x.png"; sourceTree = "<group>"; };
+		AC53EEF7192781E8009F2419 /* carnetadresse-filtre-on-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carnetadresse-filtre-on-off@2x.png"; sourceTree = "<group>"; };
+		AC53EEF9192784DE009F2419 /* bt-fb-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-fb-off@2x.png"; sourceTree = "<group>"; };
+		AC53EEFA192784DE009F2419 /* bt-fb-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-fb-on@2x.png"; sourceTree = "<group>"; };
+		AC53EEFD19278F34009F2419 /* bt-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-back@2x.png"; sourceTree = "<group>"; };
+		AC53EEFF19279119009F2419 /* menu-bt-communaute-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-bt-communaute-on@2x.png"; sourceTree = "<group>"; };
+		AC53EF0019279119009F2419 /* menu-bt-evenement-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-bt-evenement-off@2x.png"; sourceTree = "<group>"; };
+		AC53EF031927918C009F2419 /* menu-bt-communaute-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-bt-communaute-off@2x.png"; sourceTree = "<group>"; };
+		AC53EF0619279294009F2419 /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		AC53EF0719279294009F2419 /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		AC53EF0819279294009F2419 /* AboutMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutMeViewController.xib; sourceTree = "<group>"; };
+		AC53EF0B19279743009F2419 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		AC53EF0C19279743009F2419 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		AC7B8A2A190B864900D83F89 /* InviteFriendService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteFriendService.h; sourceTree = "<group>"; };
 		AC7B8A2B190B864900D83F89 /* InviteFriendService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteFriendService.m; sourceTree = "<group>"; };
 		ACAFFAC719129E6F00F27328 /* ValidateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateService.h; sourceTree = "<group>"; };
@@ -1415,6 +1470,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC53EF0D19279743009F2419 /* AddressBook.framework in Frameworks */,
+				AC53EF0E19279743009F2419 /* AddressBookUI.framework in Frameworks */,
 				ACEE67D818FD9E25006394C2 /* Accelerate.framework in Frameworks */,
 				B6652578175750C100C454D4 /* Social.framework in Frameworks */,
 				B600500217DD1AA4008F5494 /* libz.dylib in Frameworks */,
@@ -1537,6 +1594,63 @@
 				AC140AF018FC61940051AFB2 /* UIViewController+TargetViewController.m */,
 			);
 			path = MZFormSheetController;
+			sourceTree = "<group>";
+		};
+		AC53EED319275EC6009F2419 /* options */ = {
+			isa = PBXGroup;
+			children = (
+				AC53EED819275FD8009F2419 /* OptionsViewController.h */,
+				AC53EED919275FD8009F2419 /* OptionsViewController.m */,
+				AC53EEDA19275FD8009F2419 /* OptionsViewController.xib */,
+			);
+			name = options;
+			sourceTree = "<group>";
+		};
+		AC53EEDD192762C5009F2419 /* options */ = {
+			isa = PBXGroup;
+			children = (
+				AC53EEDE192762F0009F2419 /* options-deco@2x.png */,
+				AC53EEDF192762F0009F2419 /* options-envoi-feedback@2x.png */,
+				AC53EEE0192762F0009F2419 /* options-fond-deco@2x.png */,
+				AC53EEE1192762F0009F2419 /* options-fond-rubrique@2x.png */,
+				AC53EEE2192762F0009F2419 /* options-invite-amis@2x.png */,
+				AC53EEE3192762F0009F2419 /* options-note-app@2x.png */,
+				AC53EEE4192762F0009F2419 /* options-publi-facebook@2x.png */,
+				AC53EEE5192762F0009F2419 /* options-suis-nous@2x.png */,
+			);
+			name = options;
+			sourceTree = "<group>";
+		};
+		AC53EEEE1927808E009F2419 /* inviteYourFriend */ = {
+			isa = PBXGroup;
+			children = (
+				AC53EEEF192780FE009F2419 /* InviteYourFiendViewController.h */,
+				AC53EEF0192780FE009F2419 /* InviteYourFiendViewController.m */,
+				AC53EEF1192780FE009F2419 /* InviteYourFiendViewController.xib */,
+			);
+			name = inviteYourFriend;
+			sourceTree = "<group>";
+		};
+		AC53EEF419278124009F2419 /* inviteYourFriend */ = {
+			isa = PBXGroup;
+			children = (
+				AC53EEFD19278F34009F2419 /* bt-back@2x.png */,
+				AC53EEF9192784DE009F2419 /* bt-fb-off@2x.png */,
+				AC53EEFA192784DE009F2419 /* bt-fb-on@2x.png */,
+				AC53EEF7192781E8009F2419 /* carnetadresse-filtre-on-off@2x.png */,
+				AC53EEF5192781E0009F2419 /* carnetadresse-filtre-off-on@2x.png */,
+			);
+			name = inviteYourFriend;
+			sourceTree = "<group>";
+		};
+		AC53EF051927927C009F2419 /* aboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				AC53EF0619279294009F2419 /* AboutMeViewController.h */,
+				AC53EF0719279294009F2419 /* AboutMeViewController.m */,
+				AC53EF0819279294009F2419 /* AboutMeViewController.xib */,
+			);
+			name = aboutMe;
 			sourceTree = "<group>";
 		};
 		B6004FF417DD18E4008F5494 /* Google Analitycs */ = {
@@ -1680,6 +1794,8 @@
 		B67F8C131722BC890040EB40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC53EF0B19279743009F2419 /* AddressBook.framework */,
+				AC53EF0C19279743009F2419 /* AddressBookUI.framework */,
 				ACEE67D718FD9E25006394C2 /* Accelerate.framework */,
 				B600500117DD1AA4008F5494 /* libz.dylib */,
 				B6004FFF17DD1A97008F5494 /* SystemConfiguration.framework */,
@@ -1993,6 +2109,11 @@
 		B6881A86174B5D820052BA49 /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				AC53EEFF19279119009F2419 /* menu-bt-communaute-on@2x.png */,
+				AC53EF031927918C009F2419 /* menu-bt-communaute-off@2x.png */,
+				AC53EF0019279119009F2419 /* menu-bt-evenement-off@2x.png */,
+				AC53EED419275EFF009F2419 /* menu-bt-options-off@2x.png */,
+				AC53EED519275EFF009F2419 /* menu-bt-options-on@2x.png */,
 				B6881A97174B8A900052BA49 /* event_selected.png */,
 				B6881A98174B8A900052BA49 /* feed_selected.png */,
 				B6881A99174B8A900052BA49 /* event_selected@2x.png */,
@@ -2020,6 +2141,8 @@
 		B68BBBA617268258009270DF /* image */ = {
 			isa = PBXGroup;
 			children = (
+				AC53EEF419278124009F2419 /* inviteYourFriend */,
+				AC53EEDD192762C5009F2419 /* options */,
 				AC140AD518FC5D8A0051AFB2 /* Invite */,
 				B6CB10C317AA559E006C850A /* noResultSearch.png */,
 				B6CB10C417AA559E006C850A /* noResultSearch@2x.png */,
@@ -2044,8 +2167,11 @@
 		B68F1FC41723FD0E001B01B4 /* presentation */ = {
 			isa = PBXGroup;
 			children = (
+				AC53EF051927927C009F2419 /* aboutMe */,
+				AC53EEEE1927808E009F2419 /* inviteYourFriend */,
 				B6FAA2F417A160D8006E8900 /* welcome */,
 				B6377CA21725CDA300A6A8E6 /* menu */,
+				AC53EED319275EC6009F2419 /* options */,
 				B68F1FC51723FDFB001B01B4 /* login */,
 				B616AFC1175F350F00E5FB91 /* member */,
 				B6A4235F17783B56000B122F /* tribune */,
@@ -2665,6 +2791,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = smartfrog;
+				TargetAttributes = {
+					B67F8C101722BC890040EB40 = {
+						DevelopmentTeam = M9T93QTQKU;
+					};
+				};
 			};
 			buildConfigurationList = B67F8C0C1722BC890040EB40 /* Build configuration list for PBXProject "HobbyOut" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2708,6 +2839,7 @@
 				B61E9038174A60F000C2FD10 /* login-confirm-button.png in Resources */,
 				B61E9039174A60F000C2FD10 /* login-confirm-button@2x.png in Resources */,
 				B61E903A174A60F000C2FD10 /* login-facebook-button@2x.png in Resources */,
+				AC53EEE8192762F0009F2419 /* options-fond-deco@2x.png in Resources */,
 				B61E903D174A65BA00C2FD10 /* logo-white.png in Resources */,
 				B61E903E174A65BA00C2FD10 /* logo-white@2x.png in Resources */,
 				B61E9041174A663F00C2FD10 /* login-background.jpg in Resources */,
@@ -2779,8 +2911,10 @@
 				B6B25B5D176618CB00AE3D6B /* decoButton.png in Resources */,
 				ACEE67E018FEDA65006394C2 /* InviteFriendCell.xib in Resources */,
 				B6B25B5E176618CB00AE3D6B /* decoButton@2x.png in Resources */,
+				AC53EEE9192762F0009F2419 /* options-fond-rubrique@2x.png in Resources */,
 				B6A8851C1768A3EB0014FAC3 /* meetingDetails.png in Resources */,
 				B6A8851D1768A3EB0014FAC3 /* meetingDetails@2x.png in Resources */,
+				AC53EF0A19279294009F2419 /* AboutMeViewController.xib in Resources */,
 				B6A885201768B3E70014FAC3 /* meetingDetailsParticipateButton.png in Resources */,
 				B6A885211768B3E70014FAC3 /* meetingDetailsParticipateButton@2x.png in Resources */,
 				B65D79601770904F00843622 /* searchRenderer@2x.png in Resources */,
@@ -2811,6 +2945,7 @@
 				B6E2316A1795DCB400B74BBF /* TennisIcon.png in Resources */,
 				B6E2316B1795DCB400B74BBF /* TennisIcon@2x.png in Resources */,
 				B6E231721795DEDC00B74BBF /* GolfIcon.png in Resources */,
+				AC53EEFB192784DE009F2419 /* bt-fb-off@2x.png in Resources */,
 				B6E231731795DEDC00B74BBF /* GolfIcon@2x.png in Resources */,
 				B6E231761795DEF600B74BBF /* Volley-ballIcon.png in Resources */,
 				B6E231771795DEF600B74BBF /* Volley-ballIcon@2x.png in Resources */,
@@ -2820,6 +2955,7 @@
 				B6E2317F1795DFC800B74BBF /* Tennis-de-tableIcon@2x.png in Resources */,
 				B6E231811795E00500B74BBF /* Basket-ballIcon.png in Resources */,
 				AC0D209918F03837003B28DD /* photo@2x.png in Resources */,
+				AC53EED719275EFF009F2419 /* menu-bt-options-on@2x.png in Resources */,
 				B6E231841795E09900B74BBF /* BadmintonIcon.png in Resources */,
 				B6E231851795E09900B74BBF /* BadmintonIcon@2x.png in Resources */,
 				B6E231881795E11500B74BBF /* AvironIcon.png in Resources */,
@@ -2870,6 +3006,7 @@
 				B6C86D401796C6060025ECE5 /* TennisCat.png in Resources */,
 				B6C86D411796C6060025ECE5 /* TennisCat@2x.png in Resources */,
 				AC0D208B18F0309A003B28DD /* female@2x.png in Resources */,
+				AC53EEE7192762F0009F2419 /* options-envoi-feedback@2x.png in Resources */,
 				B6C86D421796C6060025ECE5 /* CyclismeCat.png in Resources */,
 				B6C86D431796C6060025ECE5 /* CyclismeCat@2x.png in Resources */,
 				B6C86D481796CB5F0025ECE5 /* cancelProfil@2x.png in Resources */,
@@ -2887,13 +3024,16 @@
 				B6FAA30317A16957006E8900 /* welcomeConnectButton@2x.png in Resources */,
 				B68545B117A18A3B0040CF32 /* registerSlide2@2x.png in Resources */,
 				B68545B217A18A3B0040CF32 /* registerSlide2.png in Resources */,
+				AC53EF041927918C009F2419 /* menu-bt-communaute-off@2x.png in Resources */,
 				B68545B317A18A3B0040CF32 /* registerSlide3@2x.png in Resources */,
 				B68545B417A18A3B0040CF32 /* registerSlide1@2x.png in Resources */,
 				B68545B517A18A3B0040CF32 /* registerSlide3.png in Resources */,
+				AC53EEEB192762F0009F2419 /* options-note-app@2x.png in Resources */,
 				B68545B617A18A3B0040CF32 /* registerSlide1.png in Resources */,
 				B68545BF17A1A16B0040CF32 /* registerNotice@2x.png in Resources */,
 				B68545C017A1A16B0040CF32 /* registerNotice.png in Resources */,
 				B68545C117A1A16B0040CF32 /* registerFacebookButton.png in Resources */,
+				AC53EEFE19278F34009F2419 /* bt-back@2x.png in Resources */,
 				B68545C217A1A16B0040CF32 /* registerFacebookButton@2x.png in Resources */,
 				B6C4908317A45BC600EE6FE1 /* restoType@2x.png in Resources */,
 				B6C4908417A45BC600EE6FE1 /* loisirType.png in Resources */,
@@ -2914,11 +3054,14 @@
 				AC140ADC18FC5DA90051AFB2 /* bt-envoyer2-off@2x.png in Resources */,
 				B6C4909D17A4736E00EE6FE1 /* loisirSimple@2x.png in Resources */,
 				B6C4909E17A4736E00EE6FE1 /* barSimple.png in Resources */,
+				AC53EEED192762F0009F2419 /* options-suis-nous@2x.png in Resources */,
 				B6C4909F17A4736E00EE6FE1 /* barSimple@2x.png in Resources */,
 				B6C490A017A4736E00EE6FE1 /* loisirSimple.png in Resources */,
 				B6C490A717A4794600EE6FE1 /* restoBigHeader.png in Resources */,
 				B6C490A817A4794600EE6FE1 /* loisirBigHeader.png in Resources */,
 				B6C490A917A4794600EE6FE1 /* loisirBigHeader@2x.png in Resources */,
+				AC53EEDC19275FD8009F2419 /* OptionsViewController.xib in Resources */,
+				AC53EEF3192780FE009F2419 /* InviteYourFiendViewController.xib in Resources */,
 				B6C490AA17A4794600EE6FE1 /* restoBigHeader@2x.png in Resources */,
 				B6C490AB17A4794600EE6FE1 /* barBigHeader.png in Resources */,
 				B6C490AC17A4794600EE6FE1 /* barBigHeader@2x.png in Resources */,
@@ -2929,9 +3072,11 @@
 				B601981517A7BFC00014A233 /* confirmFeedButton@2x.png in Resources */,
 				B601981617A7BFC00014A233 /* cancelFeedButton@2x.png in Resources */,
 				B601981717A7BFC00014A233 /* confirmFeedButton.png in Resources */,
+				AC53EEEC192762F0009F2419 /* options-publi-facebook@2x.png in Resources */,
 				B601981817A7BFC00014A233 /* cancelFeedButton.png in Resources */,
 				ACC7072B18F3229D00DB8931 /* profil-icon-valid@2x.png in Resources */,
 				B6066CB017A9366E00B40149 /* noResultAgendaPanel.png in Resources */,
+				AC53EEFC192784DE009F2419 /* bt-fb-on@2x.png in Resources */,
 				B6066CB117A9366E00B40149 /* noResultAgendaPanel@2x.png in Resources */,
 				ACC7072A18F3229D00DB8931 /* profil-icon-homme@2x.png in Resources */,
 				B6CB10C117AA5580006C850A /* noNews.png in Resources */,
@@ -2964,6 +3109,7 @@
 				AC140ADF18FC5DCA0051AFB2 /* bulle-invitation@2x.png in Resources */,
 				B6E29B1F17CB3B8300C613CF /* Danse-FitnessCat@2x.png in Resources */,
 				B6E29B2217CB3B8C00C613CF /* CricketCat@2x.png in Resources */,
+				AC53EF0119279119009F2419 /* menu-bt-communaute-on@2x.png in Resources */,
 				B6E29B2317CB3B8C00C613CF /* CricketCat.png in Resources */,
 				B6E29B2617CB3B9300C613CF /* Canoë-kayakCat@2x.png in Resources */,
 				B6E29B2717CB3B9300C613CF /* Canoë-kayakCat.png in Resources */,
@@ -3008,6 +3154,7 @@
 				B6E29B7217CBF37B00C613CF /* Lacrosse-Hockey-sur-gazonCat.png in Resources */,
 				B6E29B7317CBF37B00C613CF /* PlongeonCat.png in Resources */,
 				B6E29B7617CBF49400C613CF /* PatinageCat.png in Resources */,
+				AC53EEF6192781E0009F2419 /* carnetadresse-filtre-off-on@2x.png in Resources */,
 				B6E29B7717CBF49400C613CF /* PatinageCat@2x.png in Resources */,
 				B6E29B7A17CBF49B00C613CF /* Tous-les-sportsCat.png in Resources */,
 				B6E29B7B17CBF49B00C613CF /* Tous-les-sportsCat@2x.png in Resources */,
@@ -3042,6 +3189,8 @@
 				B6E29BAF17CC8CC300C613CF /* AthlétismeSection@2x.png in Resources */,
 				B6A1155C17CC9305007410EF /* Beach-soccerSection@2x.png in Resources */,
 				B6A1155D17CC9305007410EF /* Basket-ballSection.png in Resources */,
+				AC53EEF8192781E8009F2419 /* carnetadresse-filtre-on-off@2x.png in Resources */,
+				AC53EEEA192762F0009F2419 /* options-invite-amis@2x.png in Resources */,
 				B6A1155E17CC9305007410EF /* Baseball-SoftballSection.png in Resources */,
 				B6A1155F17CC9305007410EF /* Basket-ballSection@2x.png in Resources */,
 				B6A1156017CC9305007410EF /* Baseball-SoftballSection@2x.png in Resources */,
@@ -3104,7 +3253,9 @@
 				B6A115CA17CCA4A5007410EF /* PlongeonSection.png in Resources */,
 				ACC7072918F3229D00DB8931 /* profil-icon-homme-selected@2x.png in Resources */,
 				B6A115CB17CCA4A5007410EF /* PlongeonSection@2x.png in Resources */,
+				AC53EEE6192762F0009F2419 /* options-deco@2x.png in Resources */,
 				B6A115CC17CCA4A5007410EF /* Ski-Sports-d-hiverSection.png in Resources */,
+				AC53EF0219279119009F2419 /* menu-bt-evenement-off@2x.png in Resources */,
 				B6A115CD17CCA4A5007410EF /* Ski-Sports-d-hiverSection@2x.png in Resources */,
 				B6A115CE17CCA4A5007410EF /* Sports-de-combatSection.png in Resources */,
 				B6A115CF17CCA4A5007410EF /* Sports-de-combatSection@2x.png in Resources */,
@@ -3145,6 +3296,7 @@
 				B6A1161817CCFA13007410EF /* CricketIcon.png in Resources */,
 				ACC7072518F3229D00DB8931 /* profil-fond-bt-3@2x.png in Resources */,
 				B6A1161917CCFA13007410EF /* CricketIcon@2x.png in Resources */,
+				AC53EED619275EFF009F2419 /* menu-bt-options-off@2x.png in Resources */,
 				B6A1161A17CCFA13007410EF /* Lacrosse-Hockey-sur-gazonIcon.png in Resources */,
 				ACBCA0151903A57A0070010E /* icon-femme@2x.png in Resources */,
 				B6A1161B17CCFA13007410EF /* Lacrosse-Hockey-sur-gazonIcon@2x.png in Resources */,
@@ -3193,6 +3345,7 @@
 				AC043DD818F184B100A539C6 /* UsernameService.m in Sources */,
 				B62D1F4017240145003C3946 /* UIBackgroundImageView.m in Sources */,
 				B62D1F4117240145003C3946 /* UIAbsolutView.m in Sources */,
+				AC53EEF2192780FE009F2419 /* InviteYourFiendViewController.m in Sources */,
 				B62D1F4217240145003C3946 /* UIHView.m in Sources */,
 				B62D1F4317240145003C3946 /* UIVView.m in Sources */,
 				B65A768217245F4900A73345 /* UIColor+category.m in Sources */,
@@ -3251,6 +3404,7 @@
 				AC140AF718FC61940051AFB2 /* UIViewController+TargetViewController.m in Sources */,
 				B6AD5AEF1754121D00F134DE /* ActionSheetDatePicker.m in Sources */,
 				B6AD5AF01754121D00F134DE /* ActionSheetDistancePicker.m in Sources */,
+				AC53EF0919279294009F2419 /* AboutMeViewController.m in Sources */,
 				B6AD5AF11754121D00F134DE /* ActionSheetStringPicker.m in Sources */,
 				B6AD5AF21754121D00F134DE /* DistancePickerView.m in Sources */,
 				B6AD5AFF1754EDD100F134DE /* MeetingView.m in Sources */,
@@ -3270,6 +3424,7 @@
 				B65353C7175E2F54008C3254 /* ParticipateService.m in Sources */,
 				B679D9BB175E406600D39EFC /* Member.m in Sources */,
 				B616AFC4175F352500E5FB91 /* MemberView.m in Sources */,
+				AC53EEDB19275FD8009F2419 /* OptionsViewController.m in Sources */,
 				B616AFC7175F353A00E5FB91 /* MemberViewController.m in Sources */,
 				B6F814761760849600952DC9 /* SportTableViewController.m in Sources */,
 				B6F8147C17608E0800952DC9 /* SportCell.m in Sources */,
@@ -3393,6 +3548,8 @@
 		B67F8C2F1722BC8A0040EB40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/HobbyOut\"",
@@ -3407,6 +3564,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "15B49160-F6D0-42F3-9DD7-592980AD3127";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3414,6 +3572,8 @@
 		B67F8C301722BC8A0040EB40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/HobbyOut\"",
@@ -3428,6 +3588,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "15B49160-F6D0-42F3-9DD7-592980AD3127";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

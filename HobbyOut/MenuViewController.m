@@ -23,6 +23,8 @@
 
 #import "UserDefaultManager.h"
 #import "PleaseRegisterViewController.h"
+#import "OptionsViewController.h"
+#import "AboutMeViewController.h"
 
 @interface MenuViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -43,7 +45,9 @@
         _items = @[@[@{@"image": [UIImage imageNamed:@"tv.png"],
                        @"imageSelected": [UIImage imageNamed:@"tv_selected.png"],
                        @"text": @"AGENDA TV"},
-                     
+                     @{@"image": [UIImage imageNamed:@"menu-bt-communaute-off.png"],
+                       @"imageSelected": [UIImage imageNamed:@"menu-bt-communaute-on.png"],
+                       @"text": @"COMMUNAUTE"},
                       @{@"image": [UIImage imageNamed:@"feed.png"],
                          @"imageSelected": [UIImage imageNamed:@"feed_selected.png"],
                         @"text": @"ACTUALITES"},
@@ -54,7 +58,9 @@
                      
                       @{@"image": [UIImage imageNamed:@"user_profile.png"],
                          @"imageSelected": [UIImage imageNamed:@"user_profile_selected.png"],
-                        @"text": @"PROFIL"}]];
+                        @"text": @"PROFIL"},@{@"image": [UIImage imageNamed:@"menu-bt-options-off.png"],
+                                              @"imageSelected": [UIImage imageNamed:@"menu-bt-options-on.png"],
+                                              @"text": @"OPTIONS"}]];
         
         
     }
@@ -125,6 +131,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+   
     [self.viewDeckController closeLeftViewBouncing:^(IIViewDeckController *controller)
     {
         UIViewController *newViewController;
@@ -133,23 +140,28 @@
             case 0:
                 newViewController = [[TvViewController alloc]init];
                 break;
-            
             case 1:
+                newViewController = [[AboutMeViewController alloc] init];
+                break;
+            case 2:
                 if ([UserDefaultManager getSessionToken])
                     newViewController = [[FeedViewController alloc]init];
                 else
                     newViewController = [[PleaseRegisterViewController alloc] init];
                 break;
                 
-            case 2:
+            case 3:
                 newViewController = [[EventListViewController alloc]init];
                 break;
                 
-            case 3:
+            case 4:
                 if ([UserDefaultManager getSessionToken])
                     newViewController = [[MemberViewController alloc]init];
                 else
                     newViewController = [[PleaseRegisterViewController alloc] init];
+                break;
+            case 5:
+                newViewController = [[OptionsViewController alloc] init];
                 break;
                 
             default:
@@ -157,7 +169,10 @@
                 break;
         }
         
-        [((UINavigationController *)controller.centerController) setViewControllers:[NSArray arrayWithObject:newViewController]  animated:NO];
+        if (newViewController) {
+             [((UINavigationController *)controller.centerController) setViewControllers:[NSArray arrayWithObject:newViewController]  animated:NO];
+        }
+       
     }];
 }
 

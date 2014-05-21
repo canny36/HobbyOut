@@ -18,6 +18,9 @@
     if (self)
     {
         self.sportId = [data objectForKey:@"id"];
+        if (self.sportId == nil) {
+            self.sportId = @"";
+        }
         
         if ([data objectForKey:@"name"])
             self.name = [data objectForKey:@"name"];

@@ -33,6 +33,28 @@
         if (![[user objectForKey:key] isKindOfClass:[NSNull class]])
             [cleanUser setObject:[user objectForKey:key] forKey:key];
     }
+    
+    
+    NSMutableArray *cleanCategories  = [[NSMutableArray alloc] init];
+    
+    
+    if ([cleanUser objectForKey:@"categories"])
+    {
+        for (NSDictionary *categoryData in [cleanUser objectForKey:@"categories"])
+        {
+            NSMutableDictionary *cleanCategory = [NSMutableDictionary dictionary];
+            
+            for (NSString * key in [categoryData allKeys])
+            {
+                if (![[categoryData objectForKey:key] isKindOfClass:[NSNull class]])
+                    [cleanCategory setObject:[categoryData objectForKey:key] forKey:key];
+            }
+            
+            [cleanCategories addObject:cleanCategory];
+        }
+        
+        [cleanUser setObject:cleanCategories forKey:@"categories"];
+    }
   
     NSMutableArray *cleanOrganisingMeetings  = [[NSMutableArray alloc] init];
     

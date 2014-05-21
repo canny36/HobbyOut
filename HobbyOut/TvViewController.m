@@ -43,6 +43,7 @@
     self = [super init];
     if (self) {
         
+        
         UIButton *leftButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 27, 29)];
         [leftButton setImage:[UIImage imageNamed:@"hamburger.png"] forState:UIControlStateNormal];
         [leftButton addTarget:self.viewDeckController action:@selector(toggleLeftView)
